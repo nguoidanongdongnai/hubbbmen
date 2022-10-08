@@ -905,9 +905,6 @@ function CFAHub:CreateWindow(title, gameName, intro)
 
                 local description = setting.Description
                 local tog = setting.Toggled or false
-		local DefaultLocal = Default or false
-		local ToggleInit = {}
-		local Toggle = Folder.Toggle:Clone()
 		
                 local ToggleButton = Instance.new("TextButton")
                 local ToggleCorner = Instance.new("UICorner")
